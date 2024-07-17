@@ -1,0 +1,17 @@
+{
+    "name": "hereric/template-engine",
+    "description": "template engine test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "heric-hh",
+            "email": "erhh.015@gmail.com"
+        }
+    ],
+    "require": {}
+}
