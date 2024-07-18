@@ -11,4 +11,4 @@ $config = require "config.php";
 
 $engine = new Engine($config);
 
-echo $engine->render("pages.home");
+echo $engine->render("pages/home");

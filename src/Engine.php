@@ -30,7 +30,7 @@ class Engine {
   public function render(string $template, array $data = []) : string {
     $templatePath = $this->loader->load($template);
     $compiledTemplatePath = $this->compiler->compile($templatePath);
-    $data['_env'] = $this->slotManager;
+    $data['__env'] = $this->slotManager;
     return $this->cache->fetch($compiledTemplatePath, $data);
   }
 }
